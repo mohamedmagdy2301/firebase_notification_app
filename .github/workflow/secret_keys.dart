@@ -2,8 +2,7 @@ name: Flutter CI with secret keys
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
   build:
