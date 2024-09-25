@@ -7,7 +7,7 @@ import 'package:notification_app2/notification_helper/local_notification_service
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load();
+  await dotenv.load(fileName: '.env');
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Future.wait([
     FirebaseNotificationMenager.initFirebaseNotification(),
