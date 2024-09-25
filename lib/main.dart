@@ -1,11 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:notification_app2/notification_helper/firebase_notification_menager.dart';
 import 'package:notification_app2/firebase_options.dart';
+import 'package:notification_app2/notification_helper/firebase_notification_menager.dart';
 import 'package:notification_app2/notification_helper/local_notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Future.wait([
     FirebaseNotificationMenager.initFirebaseNotification(),
