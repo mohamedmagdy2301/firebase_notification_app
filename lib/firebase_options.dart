@@ -55,10 +55,10 @@ class DefaultFirebaseOptions {
   }
 
   static FirebaseOptions android = FirebaseOptions(
-    apiKey: Platform.environment['FIREBASE_OPTIONS_API_KEY'] ??
-        'AIzaSyDUr63NYS8FWh_xLjPEFmawFzYXM52c-gY',
-    appId: Platform.environment['FIREBASE_OPTIONS_APP_ID'] ??
-        '1:627297835661:android:d1c492cadb7f381739e0c4',
+    apiKey: Platform.environment['FIREBASE_OPTIONS_API_KEY']!,
+    //  ??        'AIzaSyDUr63NYS8FWh_xLjPEFmawFzYXM52c-gY',
+    appId: Platform.environment['FIREBASE_OPTIONS_APP_ID']!,
+    //  ??        '1:627297835661:android:d1c492cadb7f381739e0c4',
     messagingSenderId: '627297835661',
     projectId: 'notification-app-f8020',
     storageBucket: 'notification-app-f8020.appspot.com',
