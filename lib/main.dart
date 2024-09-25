@@ -14,7 +14,9 @@ void main() async {
     LocalNotificationService.init(),
   ]);
 
-  runApp(const MyApp());
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
