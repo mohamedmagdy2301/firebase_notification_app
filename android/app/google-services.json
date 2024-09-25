@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627297835661",
+    "project_id": "notification-app-f8020",
+    "storage_bucket": "notification-app-f8020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627297835661:android:d1c492cadb7f381739e0c4",
+        "android_client_info": {
+          "package_name": "com.example.notification_app2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUr63NYS8FWh_xLjPEFmawFzYXM52c-gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
