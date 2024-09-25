@@ -30,7 +30,7 @@ To set up the application, follow the steps below:
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/mohamedmagdy2301/firebase_notification_app.git
-    cd notification_app2
+    cd firebase_notification_app
     ```
 
 2. **Install dependencies:**
