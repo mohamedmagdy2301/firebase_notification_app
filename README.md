@@ -16,7 +16,7 @@
 - [Firebase Configuration](#firebase-configuration)
 - [Testing Notifications with Postman](#testing-notifications-with-postman)
 - [Contributing](#contributing)
-- [License](#license)
+- [Congratulations](#congratulations)
 - [Contact](#contact)
 
 ## Features
@@ -141,9 +141,13 @@ Contributions are welcome! Feel free to submit a Pull Request with improvements,
 4. Push to the branch (`git push origin feature/my-feature`).
 5. Create a new Pull Request.
 
-## License
+## Congratulations
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+You’ve successfully integrated firebase notifications into your Flutter app! For more advanced features and customization options, be sure to check out the official [Firebase setup guide](https://firebase.google.com/docs/flutter/setup).
+
+If you found this guide helpful, don’t forget to ⭐ star this repository on GitHub to show your support!
+
+Thank you for reading!
 
 ## Contact
 
